@@ -1,510 +1,396 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Welcome To Rock A Goth's</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="format-detection" content="telephone=no">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="author" content="">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-    <link rel="stylesheet" type="text/css" href="css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="css/vendor.css">
-    <link rel="stylesheet" type="text/css" href="fonts/icomoon.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;800;900&display=swap" rel="stylesheet">
-    <!-- script
-    ================================================== -->
-    <script src="js/modernizr.js"></script>
-  </head>
-  <body class="bg-dark">
-    <header id="header">
-      <nav class="primary-nav padding-small">
-        <div class="container">
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Material Design for Bootstrap</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+        <!--Main Navigation-->
+    <header>
+      <style>
+        /* Height for devices larger than 576px */
+        @media (min-width: 992px) {
+          #intro {
+            margin-top: -58.59px;
+          }
+        }
+
+        .navbar .nav-link {
+          color: #fff !important;
+        }
+      </style>
+
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-dark d-none d-lg-block" style="z-index: 2000;">
+        <div class="container-fluid">
+          <!-- Navbar brand -->
+          <a class="navbar-brand nav-link" target="_blank" href="https://mdbootstrap.com/docs/standard/">
+            <strong>MDB</strong>
+          </a>
+          <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01"
+            aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarExample01">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link" aria-current="page" href="#intro">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.youtube.com/channel/UC5CF7mLQZhvx8O5GODZAhdA" rel="nofollow"
+                  target="_blank">Learn Bootstrap 5</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://mdbootstrap.com/docs/standard/" target="_blank">Download MDB UI KIT</a>
+              </li>
+            </ul>
+
+            <ul class="navbar-nav d-flex flex-row">
+              <!-- Icons -->
+              <li class="nav-item me-3 me-lg-0">
+                <a class="nav-link" href="https://www.youtube.com/channel/UC5CF7mLQZhvx8O5GODZAhdA" rel="nofollow"
+                  target="_blank">
+                  <i class="fab fa-youtube"></i>
+                </a>
+              </li>
+              <li class="nav-item me-3 me-lg-0">
+                <a class="nav-link" href="https://www.facebook.com/mdbootstrap" rel="nofollow" target="_blank">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="nav-item me-3 me-lg-0">
+                <a class="nav-link" href="https://twitter.com/MDBootstrap" rel="nofollow" target="_blank">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li class="nav-item me-3 me-lg-0">
+                <a class="nav-link" href="https://github.com/mdbootstrap/mdb-ui-kit" rel="nofollow" target="_blank">
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar -->
+
+      <!-- Background image -->
+      <div id="intro" class="bg-image vh-100 shadow-1-strong">
+        <video style="min-width: 100%; min-height: 100%;" playsinline autoplay muted loop>
+          <source class="h-100" src="https://mdbootstrap.com/img/video/Lines.mp4" type="video/mp4" />
+        </video>
+        <div class="mask"     style="
+        background: linear-gradient(
+          45deg,
+          rgba(29, 236, 197, 0.7),
+          rgba(91, 14, 214, 0.7) 100%
+        );
+      ">
+          <div class="container d-flex align-items-center justify-content-center text-center h-100">
+            <div class="text-white">
+              <h1 class="mb-3">Learn Bootstrap 5 with MDB</h1>
+              <h5 class="mb-4">Best & free guide of responsive web design</h5>
+              <a
+                class="btn btn-outline-light btn-lg m-2"
+                href="https://www.youtube.com/watch?v=c9B4TPnak1A"
+                role="button"
+                rel="nofollow"
+                target="_blank"
+                >Start tutorial</a
+              >
+              <a
+                class="btn btn-outline-light btn-lg m-2"
+                href="https://mdbootstrap.com/docs/standard/"
+                target="_blank"
+                role="button"
+                >Download MDB UI KIT</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Background image -->
+    </header>
+    <!--Main Navigation-->
+
+    <!--Main layout-->
+    <main class="mt-5">
+      <div class="container">
+        <!--Section: Content-->
+        <section>
           <div class="row">
-            <div class="col-md-3">
-              <div class="main-logo">
-                <a href="index.html">
-
-
-
-                  <section id="association-with" class="pattern-blur">
-                    <div class="pattern-overlay left-side-pattern">
-                      <img src="images/pattern-blur-left.png">
-                    </div>
-                    <div class="container">
-                      <div class="row d-flex flex-wrap justify-content-between">
-                        <img src="images/Rock-logo.PNG" width="50%" alt="brand" class="image-association">
-                      </div>
-                    </div>
-                  </section>
+            <div class="col-md-6 gx-5 mb-4">
+              <div class="bg-image hover-overlay ripple shadow-2-strong" data-mdb-ripple-color="light">
+                <img src="https://mdbootstrap.com/img/new/slides/031.jpg" class="img-fluid" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                 </a>
               </div>
             </div>
 
+            <div class="col-md-6 gx-5 mb-4">
+              <h4><strong>Facilis consequatur eligendi</strong></h4>
+              <p class="text-muted">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis consequatur
+                eligendi quisquam doloremque vero ex debitis veritatis placeat unde animi laborum
+                sapiente illo possimus, commodi dignissimos obcaecati illum maiores corporis.
+              </p>
+              <p><strong>Doloremque vero ex debitis veritatis?</strong></p>
+              <p class="text-muted">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod itaque voluptate
+                nesciunt laborum incidunt. Officia, quam consectetur. Earum eligendi aliquam illum
+                alias, unde optio accusantium soluta, iusto molestiae adipisci et?
+              </p>
+            </div>
+          </div>
+        </section>
+        <!--Section: Content-->
 
-            <!-- Save for later -->
-            <!-- <div class="col-md-9">
-              <div class="navbar">
-                <div class="main-menu d-flex justify-content-between">
-                  <ul class="menu-list col-md-6 list-unstyled d-flex">
-                    <li class="menu-item">
-                      
-                      <a href="#" class="item-anchor active" data-effect="Home">Welcome and Thanks for Visiting </a>
-                      RockAGoth
-                    </li>
+        <hr class="my-5" />
 
-                  </ul>
-                <div class="hamburger">
-                  <span class="bar"></span>
-                  <span class="bar"></span>
-                  <span class="bar"></span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </nav>
-    </header> -->
-    <div id="billboard" class="padding-small overflow-hidden">
-      <div class="container">
-        <div class="row d-flex flex-wrap">
-          <div class="col-md-6 col-sm-8">
-            <div class="banner-content content-light">
-              <h1 class="banner-title">Rock A Goth</h1>
-              <h3 class="banner-subtitle">Hey! I'm Rock A Goth! Happy to meet you!  </h3>
+        <!--Section: Content-->
+        <section class="text-center">
+          <h4 class="mb-5"><strong>Facilis consequatur eligendi</strong></h4>
 
-              <p class="grey"> I'm RockAGoth but my name is Christina. I'm from Boston originally but moved out to Washington State back in 2016. I've been gaming for a while with my first system being an NES. My first game was super mario brothers with duck hunt and track and field! It came with the power pad and the gun! </p>
+          <div class="row">
+            <div class="col-lg-4 col-md-12 mb-4">
+              <div class="card">
+                <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                  <img
+                    src="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+                    class="img-fluid"
+                  />
+                  <a href="#!">
+                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                  </a>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make up the bulk of the
+                    card's content.
+                  </p>
+                  <a href="#!" class="btn btn-primary">Button</a>
+                </div>
+              </div>
+            </div>
 
-              <p> Gaming has meant a lot to me and has gotten me through some of the toughest times in my life. This is one big reason I love streaming retro games. Just hearing and seeing the nostalgia and how it brings back fond memories for people really warms me. </p> 
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card">
+                <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                  <img
+                    src="https://mdbootstrap.com/img/new/standard/nature/023.jpg"
+                    class="img-fluid"
+                  />
+                  <a href="#!">
+                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                  </a>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make up the bulk of the
+                    card's content.
+                  </p>
+                  <a href="#!" class="btn btn-primary">Button</a>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="col-md-6 col-sm-8">
-            <div class="image-holder align-center">
-              <img src="images/pro-pic.PNG" alt="banner" class="rounded-shape" width="75%" height="auto" padding="5%">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <section id="product-card" class="padding-large no-padding-top">
-      <div class="container">
-        <div class="row">
-          <div class="section-header text-center">
-            <h2 class="section-title light">RockAGoth creates:</h2>
-          </div>
-          <div class="swiper product-swiper">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <div class="product-item">
-                  <div class="image-holder">
-                    <img src="images/basement_cover.PNG" alt="collection" class="rounded-shape">
-                  </div>
-                  <div class="product-detail bg-light">
-                    <div class="card-header d-flex flex-wrap justify-content-between">
-                      <h3 class="card-title">Gaming In The Basement</h3>
-                    </div>
-                    <div class="clients-detail">
-                      <span class="clients-name">Podcast</span>
-                    </div>
-                    <div class="btn-card">
-                      <a href="#" class="btn btn-linear btn-full btn-rounded btn-medium">Visit Spotify</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="product-item">
-                  <div class="image-holder">
-                    <img src="images/lili.jpg" alt="collection" class="rounded-shape">
-                  </div>
-                  <div class="product-detail bg-light">
-                    <div class="card-header d-flex flex-wrap justify-content-between">
-                      <h3 class="card-title">RockAGoth Twitch Channel</h3>
-                    </div>
-                    <div class="clients-detail">
-                      <span class="clients-name">Twitch </span>
-                    </div>
-                    <div class="btn-card">
-                      <a href="#" class="btn btn-linear btn-full btn-rounded btn-medium">Visit</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="product-item">
-                  <div class="image-holder">
-                    <img src="images/collection-item2.jpg" alt="collection" class="rounded-shape">
-                  </div>
-                  <div class="product-detail bg-light">
-                    <div class="card-header d-flex flex-wrap justify-content-between">
-                      <h3 class="card-title">SpookyBot</h3>
-                    </div>
-                    <div class="clients-detail">
-                      <img src="images/clients-item2.jpg" alt="clients" class="circle-shape">
-                      <span class="clients-name">GitHub</span>
-                    </div>
-                    <div class="btn-card">
-                      <a href="#" class="btn btn-linear btn-full btn-rounded btn-medium">Visit Repo</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="product-item">
-                  <div class="image-holder">
-                    <img src="images/collection-item3.jpg" alt="collection" class="rounded-shape">
-                  </div>
-                  <div class="product-detail bg-light">
-                    <div class="card-header d-flex flex-wrap justify-content-between">
-                      <h3 class="card-title">Hard Breath</h3>
-                      <span class="currency">0.22 ETH</span>
-                    </div>
-                    <div class="clients-detail">
 
-                      <span class="clients-name">Glam Lee</span>
-                    </div>
-                    <div class="btn-card">
-                      <a href="#" class="btn btn-linear btn-full btn-rounded btn-medium">Place a Bid</a>
-                    </div>
-                  </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card">
+                <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                  <img
+                    src="https://mdbootstrap.com/img/new/standard/nature/111.jpg"
+                    class="img-fluid"
+                  />
+                  <a href="#!">
+                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                  </a>
                 </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="product-item">
-                  <div class="image-holder">
-                    <img src="images/collection-item3.jpg" alt="collection" class="rounded-shape">
-                  </div>
-                  <div class="product-detail bg-light">
-                    <div class="card-header d-flex flex-wrap justify-content-between">
-                      <h3 class="card-title">Hard Breath</h3>
-                      <span class="currency">0.22 ETH</span>
-                    </div>
-                    <div class="clients-detail">
-                      <img src="images/clients-item1.jpg" alt="clients" class="circle-shape">
-                      <span class="clients-name">Glam Lee</span>
-                    </div>
-                    <div class="btn-card">
-                      <a href="#" class="btn btn-linear btn-full btn-rounded btn-medium">Place a Bid</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="product-item">
-                  <div class="image-holder">
-                    <img src="images/collection-item3.jpg" alt="collection" class="rounded-shape">
-                  </div>
-                  <div class="product-detail bg-light">
-                    <div class="card-header d-flex flex-wrap justify-content-between">
-                      <h3 class="card-title">Hard Breath</h3>
-                      <span class="currency">0.22 ETH</span>
-                    </div>
-                    <div class="clients-detail">
-                      <img src="images/clients-item3.jpg" alt="clients" class="circle-shape">
-                      <span class="clients-name">Glam Lee</span>
-                    </div>
-                    <div class="btn-card">
-                      <a href="#" class="btn btn-linear btn-full btn-rounded btn-medium">Place a Bid</a>
-                    </div>
-                  </div>
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make up the bulk of the
+                    card's content.
+                  </p>
+                  <a href="#!" class="btn btn-primary">Button</a>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <!-- <div class="swiper-pagination"></div> -->
-      </div>
-    </section>
-    <!-- <section id="top-creators" class="padding-large">
-      <div class="container">
-        <div class="row">
-          <div class="section-header align-center">
-            <h2 class="section-title light">Top Creators </h2>
-            <p>In commodo auctor eget congue sit. Ultrices eget pretium sit euismod mi id. Risus, aliquam odio posuere ac in in nisl sed augue. Porta aenean egestas malesuada in pulvinar enim viverra.</p>
-          </div>
-          <div class="product-content overflow-hidden">
-            <div class="row d-flex flex-wrap">
-              <div class="col-md-3 col-sm-6">
-                <div class="product-item bg-blue-trans border-rounded">
-                  <div class="product-detail text-center">
-                    <div class="clients-detail">
-                      <img src="images/clients-item-lg1.jpg" alt="clients" class="circle-shape">
+        </section>
+        <!--Section: Content-->
+
+        <hr class="my-5" />
+
+        <!--Section: Content-->
+        <section class="mb-5">
+          <h4 class="mb-5 text-center"><strong>Facilis consequatur eligendi</strong></h4>
+
+          <div class="row d-flex justify-content-center">
+            <div class="col-md-6">
+              <form>
+                <!-- 2 column grid layout with text inputs for the first and last names -->
+                <div class="row mb-4">
+                  <div class="col">
+                    <div class="form-outline">
+                      <input type="text" id="form3Example1" class="form-control" />
+                      <label class="form-label" for="form3Example1">First name</label>
                     </div>
-                    <h3 class="block-title">Loura Chin</h3>
-                    <div class="btn-card">
-                      <a href="#" class="btn btn-linear btn-rounded btn-medium">View Details</a>
+                  </div>
+                  <div class="col">
+                    <div class="form-outline">
+                      <input type="text" id="form3Example2" class="form-control" />
+                      <label class="form-label" for="form3Example2">Last name</label>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="col-md-3 col-sm-6">
-                <div class="product-item bg-blue-trans border-rounded">
-                  <div class="product-detail text-center">
-                    <div class="clients-detail">
-                      <img src="images/clients-item-lg2.jpg" alt="clients" class="circle-shape">
-                    </div>
-                    <h3 class="block-title">Kelvin Glan</h3>
-                    <div class="btn-card">
-                      <a href="#" class="btn btn-linear btn-rounded btn-medium">View Details</a>
-                    </div>
-                  </div>
+
+                <!-- Email input -->
+                <div class="form-outline mb-4">
+                  <input type="email" id="form3Example3" class="form-control" />
+                  <label class="form-label" for="form3Example3">Email address</label>
                 </div>
-              </div>
-              <div class="col-md-3 col-sm-6">
-                <div class="product-item bg-blue-trans border-rounded">
-                  <div class="product-detail text-center">
-                    <div class="clients-detail">
-                      <img src="images/clients-item-lg3.jpg" alt="clients" class="circle-shape">
-                    </div>
-                    <h3 class="block-title">Glam Lee</h3>
-                    <div class="btn-card">
-                      <a href="#" class="btn btn-linear btn-rounded btn-medium">View Details</a>
-                    </div>
-                  </div>
+
+                <!-- Password input -->
+                <div class="form-outline mb-4">
+                  <input type="password" id="form3Example4" class="form-control" />
+                  <label class="form-label" for="form3Example4">Password</label>
                 </div>
-              </div>
-              <div class="col-md-3 col-sm-6">
-                <div class="product-item bg-blue-trans border-rounded">
-                  <div class="product-detail text-center">
-                    <div class="clients-detail">
-                      <img src="images/clients-item-lg4.jpg" alt="clients" class="circle-shape">
-                    </div>
-                    <h3 class="block-title">Alameda</h3>
-                    <div class="btn-card">
-                      <a href="#" class="btn btn-linear btn-rounded btn-medium">View Details</a>
-                    </div>
-                  </div>
+
+                <!-- Checkbox -->
+                <div class="form-check d-flex justify-content-center mb-4">
+                  <input
+                    class="form-check-input me-2"
+                    type="checkbox"
+                    value=""
+                    id="form2Example3"
+                    checked
+                  />
+                  <label class="form-check-label" for="form2Example3">
+                    Subscribe to our newsletter
+                  </label>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="subscribe" class="padding-large pattern-circle">
-      <div class="pattern-overlay">
-        <img src="images/pattern-overlay.png" alt="pattern-overlay">
-      </div>
-      <div class="container">
-        <div class="row d-flex flex-wrap justify-content-center">
-          <div class="col-md-5">
-            <div class="image-holder">
-              <img src="images/single-image.jpg" alt="single image" class="banner-image">
-            </div>
-          </div>
-          <div class="col-md-5">
-            <div class="subscribe-content">
-              <div class="subscribe-header">
-                <h3 class="subscribe-title light">Subscribe And get Latest news update about NFTs.</h3>
-                <p>In commodo auctor eget congue sit. Ultrices eget pretium sit euismod mi id. Risus, aliquam odio posuere ac in in nisl sed augue. Porta aenean egestas malesuada in pulvinar enim viverra.</p>
-              </div>
-              <form id="form" class="d-flex justify-content-between bg-blue-trans">
-                <input type="text" name="email" placeholder="Write your email here" class="btn-rounded content-dim-light">
-                <button class="btn btn-linear btn-medium">Subscribe</button>
+
+                <!-- Submit button -->
+                <button type="submit" class="btn btn-primary btn-block mb-4">
+                  Sign up
+                </button>
+
+                <!-- Register buttons -->
+                <div class="text-center">
+                  <p>or sign up with:</p>
+                  <button type="button" class="btn btn-primary btn-floating mx-1">
+                    <i class="fab fa-facebook-f"></i>
+                  </button>
+
+                  <button type="button" class="btn btn-primary btn-floating mx-1">
+                    <i class="fab fa-google"></i>
+                  </button>
+
+                  <button type="button" class="btn btn-primary btn-floating mx-1">
+                    <i class="fab fa-twitter"></i>
+                  </button>
+
+                  <button type="button" class="btn btn-primary btn-floating mx-1">
+                    <i class="fab fa-github"></i>
+                  </button>
+                </div>
               </form>
             </div>
           </div>
-        </div>
+        </section>
+        <!--Section: Content-->
       </div>
-    </section>
-    <section id="nft-collection" class="padding-large">
-      <div class="container">
-        <div class="row overflow-hidden">
-          <div class="section-header align-center">
-            <h2 class="section-title light">NFTs collections</h2>
-            <p>Ultrices eget pretium sit euismod mi id posuere ac in in nisl sed augue.</p>
-          </div>
-          <div class="product-content">
-            <div class="row">
-              <div class="col-md-3 col-sm-6">
-                <div class="product-item bg-blue-trans border-rounded-pill">
-                  <div class="product-detail text-center">
-                    <div class="clients-detail">
-                      <img src="images/nft-item1.jpg" alt="clients" class="circle-shape">
-                    </div>
-                    <h3 class="block-title">Broken Collection</h3>
-                    <div class="btn-card">
-                      <a href="#" class="btn btn-secondary btn-medium no-padding-top d-flex justify-content-center">View Collection</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-3 col-sm-6">
-                <div class="product-item bg-blue-trans border-rounded-pill">
-                  <div class="product-detail text-center">
-                    <div class="clients-detail">
-                      <img src="images/nft-item2.jpg" alt="clients" class="circle-shape">
-                    </div>
-                    <h3 class="block-title">Broken Collection</h3>
-                    <div class="btn-card">
-                      <a href="#" class="btn btn-secondary btn-medium no-padding-top d-flex justify-content-center">View Collection</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-3 col-sm-6">
-                <div class="product-item bg-blue-trans border-rounded-pill">
-                  <div class="product-detail text-center">
-                    <div class="clients-detail">
-                      <img src="images/nft-item3.jpg" alt="clients" class="circle-shape">
-                    </div>
-                    <h3 class="block-title">Broken Collection</h3>
-                    <div class="btn-card">
-                      <a href="#" class="btn btn-secondary btn-medium no-padding-top d-flex justify-content-center">View Collection</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-3 col-sm-6">
-                <div class="product-item bg-blue-trans border-rounded-pill">
-                  <div class="product-detail text-center">
-                    <div class="clients-detail">
-                      <img src="images/nft-item4.jpg" alt="clients" class="circle-shape">
-                    </div>
-                    <h3 class="block-title">Broken Collection</h3>
-                    <div class="btn-card">
-                      <a href="#" class="btn btn-secondary btn-medium no-padding-top d-flex justify-content-center">View Collection</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+    </main>
+    <!--Main layout-->
+
+    <!--Footer-->
+    <footer class="bg-light text-lg-start">
+      <div class="py-4 text-center">
+        <a
+          role="button"
+          class="btn btn-primary btn-lg m-2"
+          href="https://www.youtube.com/channel/UC5CF7mLQZhvx8O5GODZAhdA"
+          rel="nofollow"
+          target="_blank"
+        >
+          Learn Bootstrap 5
+        </a>
+        <a
+          role="button"
+          class="btn btn-primary btn-lg m-2"
+          href="https://mdbootstrap.com/docs/standard/"
+          target="_blank"
+        >
+          Download MDB UI KIT
+        </a>
       </div>
-    </section> -->
-    <footer id="footer"class="align-center">
-      <div class="container">
-        <!-- <div class="row d-flex flex-wrap justify-content-between"> -->
-          <!-- <div class="col-lg-4 col-md-6"> -->
-            <div class="footer-item item-001">
-              <img src="images/Rock-logo.PNG" alt="logo">
-              <p>Ultrices eget pretium sit euismod mi id posuere ac in in nisl sed augue. Posuere ac in in nisl sed augue.</p>
-              <div class="social-media width="100%">
-                <ul class="d-flex">
-                  <li class="bg-blue-trans border-rounded-circle">
-                    <a href="#">
-                      <i class="icon icon-facebook"></i>
-                    </a>
-                  </li>
-                  <li class="bg-blue-trans border-rounded-circle">
-                    <a href="#">
-                      <i class="icon icon-twitter"></i>
-                    </a>
-                  </li>
-                  <li class="bg-blue-trans border-rounded-circle">
-                    <a href="#">
-                      <i class="icon icon-instagram"></i>
-                    </a>
-                  </li>
-                  <li class="bg-blue-trans border-rounded-circle">
-                    <a href="#">
-                      <i class="icon icon-youtube"></i>
-                    </a>
-                  </li>
-                  <li class="bg-blue-trans border-rounded-circle">
-                    <a href="#">
-                      <i class="icon icon-linkedin"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <!-- <div class="col-lg-2 col-md-6">
-            <div class="footer-item item-002 content-light">
-              <h4>Marketplace</h4>
-              <ul class="footer-menu list-unstyled">
-                <li>
-                  <a href="#">NFTs</a>
-                </li>
-                <li>
-                  <a href="#">Art</a>
-                </li>
-                <li>
-                  <a href="#">Collectibles</a>
-                </li>
-                <li>
-                  <a href="#">Virtual world</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-6">
-            <div class="footer-item item-003 content-light">
-              <h4>Info</h4>
-              <ul class="footer-menu list-unstyled">
-                <li>
-                  <a href="#">Activity</a>
-                </li>
-                <li>
-                  <a href="#">Stats</a>
-                </li>
-                <li>
-                  <a href="#">Rankings</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-6">
-            <div class="footer-item item-004 content-light">
-              <h4>Company</h4>
-              <ul class="footer-menu list-unstyled">
-                <li>
-                  <a href="#">About</a>
-                </li>
-                <li>
-                  <a href="#">Support</a>
-                </li>
-                <li>
-                  <a href="#">Features</a>
-                </li>
-                <li>
-                  <a href="#">Top Creators</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-6">
-            <div class="footer-item item-005 content-light">
-              <h4>Resources</h4>
-              <ul class="footer-menu list-unstyled">
-                <li>
-                  <a href="#">Info</a>
-                </li>
-                <li>
-                  <a href="#">Affiliates</a>
-                </li>
-                <li>
-                  <a href="#">Associated</a>
-                </li>
-                <li>
-                  <a href="#">Blog</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div> -->
+
+      <hr class="m-0" />
+
+      <div class="text-center py-4 align-items-center">
+        <p>Follow MDB on social media</p>
+        <a
+          href="https://www.youtube.com/channel/UC5CF7mLQZhvx8O5GODZAhdA"
+          class="btn btn-primary m-1"
+          role="button"
+          rel="nofollow"
+          target="_blank"
+        >
+          <i class="fab fa-youtube"></i>
+        </a>
+        <a
+          href="https://www.facebook.com/mdbootstrap"
+          class="btn btn-primary m-1"
+          role="button"
+          rel="nofollow"
+          target="_blank"
+        >
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a
+          href="https://twitter.com/MDBootstrap"
+          class="btn btn-primary m-1"
+          role="button"
+          rel="nofollow"
+          target="_blank"
+        >
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a
+          href="https://github.com/mdbootstrap/mdb-ui-kit"
+          class="btn btn-primary m-1"
+          role="button"
+          rel="nofollow"
+          target="_blank"
+        >
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2020 Copyright:
+        <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+      </div>
+      <!-- Copyright -->
     </footer>
-    <hr>
-    <div id="footer-bottom">
-      <div class="container">
-        <div class="row text-center">
-          <p>© 2022 Copyright <a href="https://templatesjungle.com/" class="light">TemplatesJungle</a>. All rights reserved </p>
-        </div>
-      </div>
-    </div> 
-    <script src="js/jquery-1.11.0.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-    <script type="text/javascript" src="js/plugins.js"></script>
+    <!--Footer-->
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
     <script type="text/javascript" src="js/script.js"></script>
-  </body>
+</body>
 </html>
