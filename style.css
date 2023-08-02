@@ -1026,7 +1026,7 @@ h3.block-title {
 }
 
 .padding-medium {
-  padding-top: 4em;
+  padding-top: 2em;
   padding-bottom: 4em;
 }
 
@@ -1771,9 +1771,6 @@ img.rounded-shape {
 
 #billboard .rounded-shape {
   border-radius: 50%;
-}
-#billboard image {
-  height: 50%;
 }
 
 #billboard .banner-content h3.banner-subtitle {
