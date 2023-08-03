@@ -41,5 +41,23 @@
   content: "\f0c9";
 }
 .icon-instagram:before {
-  content: "\f16d";
+  content: "\ea92";
+}
+.icon-mail:before {
+  content:"\ea86";
+}
+.icon-twitch:before {
+  content:"\ea9f";
+}
+.icon-spotify:before {
+  content:"\ea94";
+}
+.icon-github:before {
+  content:"\eab0";
+}
+.icon-steam:before {
+  content:"\eaac";
+}
+.icon-playstation:before {
+  content:"\e900";
 }
