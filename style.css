@@ -1858,6 +1858,7 @@ img.image-association {
 #product-card .product-detail {
   width: 80%;
   position: absolute;
+
   left: 36px;
   padding: 24px;
   border-radius: 20px;
