@@ -1770,7 +1770,7 @@ img.rounded-shape {
 }
 
 #billboard .rounded-shape {
-  border-radius: 50%;
+  border-radius: 50% 20% / 10% 40%;
 }
 
 #billboard .banner-content h3.banner-subtitle {
