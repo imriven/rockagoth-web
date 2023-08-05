@@ -678,6 +678,7 @@ form {
 .d-flex {
   display: -ms-flexbox !important;
   display: flex !important;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
